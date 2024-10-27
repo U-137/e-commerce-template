@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+   <main>
+    <div class="container1">
+        <div class="image-section">
+            <img src="./src/assets/images/Automotive-eCommerce.jpg" alt="Side Image">
+            <img src="./src/assets/images/trends-gaming-ecommerce-platforms_1186366-157563.avif" alt="Side Image">
+            <img src="./src/assets/images/beeeaf193214481.Y3JvcCwxMTkzLDkzMywxMDksMA.png" alt="Side Image">
+            <img src="./src/assets/images/drone-3202860_1280-1200x675.jpg" alt="Side Image">
+        </div>
+        <div class="login-section">
+            <h2>Login</h2>
+            <button class="social-login facebook">Login with Facebook</button>
+            <button class="social-login google">Login with Google</button>
+            <form action="/login" method="POST">
+                <label for="username"><b>First Name</b></label>
+                <input type="text" id="First Name" name="First Name" placeholder="Enter First Name" required>
+                <label for="username"><b>last Name</b></label>
+                <input type="text" id="last Name" name="last Name" placeholder="Enter last Name" required> 
+                <label for="username"><b>Email</b></label>
+                <input type="text" id="Email" name="Email" placeholder="Enter Email" required> 
+                <label for="password"><b>Password</b></label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required> 
+                <label for="username"><b>Confirm password</b></label>
+                <input type="text" id="Confirm password" name="Confirm password" placeholder="Enter Confirm password" required>
+                
+                <button type="submit">Sign In</button>
+            </form>
+        </div>
+    </div>
+   </main>
+</body>
+</html>
